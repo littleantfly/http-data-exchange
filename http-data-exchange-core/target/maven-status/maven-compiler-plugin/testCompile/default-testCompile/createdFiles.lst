@@ -1,0 +1,10 @@
+com\github\littleantfly\tests\model\EncryptRequestDemo.class
+com\github\littleantfly\tests\model\UserVO.class
+com\github\littleantfly\tests\model\EncryptResponseDemo.class
+com\github\littleantfly\tests\model\SignatureResponseDemo.class
+com\github\littleantfly\tests\model\UserForm.class
+com\github\littleantfly\tests\SignatureRequestHandlerWrapperTests.class
+com\github\littleantfly\tests\model\SignatureRequestDemo.class
+com\github\littleantfly\tests\EncryptRequestHandlerWrapperTests.class
+com\github\littleantfly\tests\model\SimpleExchangeRequest.class
+com\github\littleantfly\tests\PerpetualRequestHandlerTests.class

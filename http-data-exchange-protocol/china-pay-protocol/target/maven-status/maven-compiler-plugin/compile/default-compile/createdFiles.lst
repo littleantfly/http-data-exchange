@@ -1,0 +1,13 @@
+com\enneagon\digital\exchange\procotol\chinapay\biz\ChinaPayInvoiceApplyForm.class
+com\enneagon\digital\exchange\procotol\chinapay\biz\ChinaPayInvoiceQueryVO.class
+com\enneagon\digital\exchange\procotol\chinapay\utils\Base64Util.class
+com\enneagon\digital\exchange\procotol\chinapay\ChinaPayService.class
+com\enneagon\digital\exchange\procotol\chinapay\utils\EncryptUtil.class
+com\enneagon\digital\exchange\procotol\chinapay\biz\GoodDetail.class
+com\enneagon\digital\exchange\procotol\chinapay\ChinaPayHttpEncryptServiceImpl.class
+com\enneagon\digital\exchange\procotol\chinapay\biz\ChinaPayInvoiceApplyVO.class
+com\enneagon\digital\exchange\procotol\chinapay\biz\GoodDetail$Builder.class
+com\enneagon\digital\exchange\procotol\chinapay\ChinaPayRequest.class
+com\enneagon\digital\exchange\procotol\chinapay\biz\ChinaPayInvoiceQueryForm.class
+com\enneagon\digital\exchange\procotol\chinapay\config\ChinaPayConfig.class
+com\enneagon\digital\exchange\procotol\chinapay\ChinaPayResponse.class

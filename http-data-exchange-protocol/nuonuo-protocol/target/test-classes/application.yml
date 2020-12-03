@@ -1,0 +1,7 @@
+
+
+
+logging:
+  level:
+    com.github.littleantfly.httpdataexchangecore.impl: debug
+#
