@@ -35,7 +35,7 @@ public class InvoiceTests {
     private ChinaPayInvoiceApplyForm form = new ChinaPayInvoiceApplyForm();
 
 
-    private String url = "https://vas-test.chinapay.com/VASAP/vasap/business.htm";
+    private String url = "https://localhost/business.htm";
 
     @Before
     public void init(){
@@ -108,8 +108,8 @@ public class InvoiceTests {
     @Test
     public void chinaPayServiceTest(){
         ChinaPayConfig chinaPayConfig = new ChinaPayConfig();
-        chinaPayConfig.setBizUrl("https://vas-test.chinapay.com/VASAP/vasap/business.htm");
-        chinaPayConfig.setQueryUrl("https://vas-test.chinapay.com/VASAP/vasap/query.htm");
+        chinaPayConfig.setBizUrl("https://localhost/business.htm");
+        chinaPayConfig.setQueryUrl("https://localhost/query.htm");
         chinaPayConfig.setConfigPath("/data/jars/files/yc-security.properties");
         chinaPayConfig.setMerNo("000091908029266");
         ChinaPayService chinaPayService = new ChinaPayService(chinaPayConfig);

@@ -75,7 +75,7 @@ public class NuoNuoTests {
         plaintext.put("identity", "2329CC5F90EDAA8208F1F3C72A0CE72A713A9D425CD50CDE");
         nuoNuoRequest.setOrder(JSON.toJSONString(plaintext));
 
-        ExchangeResponse res = handler.post("https://nnfpbox.nuonuocs.cn/shop/buyer/allow/cxfKp/cxfServerKpOrderSync.action", nuoNuoRequest);
+        ExchangeResponse res = handler.post("http://localhost/cxfServerKpOrderSync.action", nuoNuoRequest);
 
         log.info(JSON.toJSONString(res));
 
@@ -85,7 +85,7 @@ public class NuoNuoTests {
     public void NuoNuoServiceTest(){
         NuoNuoConfig nuoNuoConfig = new NuoNuoConfig();
         nuoNuoConfig.setIdentity("2329CC5F90EDAA8208F1F3C72A0CE72A713A9D425CD50CDE");
-        nuoNuoConfig.setUrlPrefix("https://nnfpbox.nuonuocs.cn");
+        nuoNuoConfig.setUrlPrefix("http://localhost");
         NuoNuoService nuoNuoService = new NuoNuoService(nuoNuoConfig);
 
         NuoNuoInvoiceApplyVO nuoNuoInvoiceVO = nuoNuoService.applyInvoice(form);
