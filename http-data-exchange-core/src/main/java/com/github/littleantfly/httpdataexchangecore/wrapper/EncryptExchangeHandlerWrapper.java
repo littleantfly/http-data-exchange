@@ -1,4 +1,4 @@
-package com.github.littleantfly.httpdataexchangecore.impl;
+package com.github.littleantfly.httpdataexchangecore.wrapper;
 
 import cn.hutool.core.util.ObjectUtil;
 import cn.hutool.core.util.StrUtil;

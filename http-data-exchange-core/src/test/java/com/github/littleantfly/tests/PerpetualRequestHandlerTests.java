@@ -1,7 +1,7 @@
 package com.github.littleantfly.tests;
 
 import com.alibaba.fastjson.JSON;
-import com.github.littleantfly.httpdataexchangecore.impl.PerpetualExchangeHandler;
+import com.github.littleantfly.httpdataexchangecore.wrapper.PerpetualExchangeHandler;
 import com.github.littleantfly.httpdataexchangecore.model.ExchangeResponse;
 import com.github.littleantfly.tests.model.SimpleExchangeRequest;
 import org.junit.Test;

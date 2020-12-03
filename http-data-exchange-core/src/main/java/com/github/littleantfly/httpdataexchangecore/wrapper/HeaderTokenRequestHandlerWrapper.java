@@ -1,4 +1,4 @@
-package com.github.littleantfly.httpdataexchangecore.impl;
+package com.github.littleantfly.httpdataexchangecore.wrapper;
 
 import com.github.littleantfly.httpdataexchangecore.ExchangeHandler;
 import com.github.littleantfly.httpdataexchangecore.TokenService;
@@ -6,8 +6,6 @@ import com.github.littleantfly.httpdataexchangecore.exception.DataExchangeReques
 import com.github.littleantfly.httpdataexchangecore.exception.DataExchangeVerifySignatureException;
 import com.github.littleantfly.httpdataexchangecore.model.ExchangeRequest;
 import com.github.littleantfly.httpdataexchangecore.model.ExchangeResponse;
-import org.springframework.http.HttpEntity;
-import org.springframework.http.HttpHeaders;
 
 /**
  * 获取Token处理

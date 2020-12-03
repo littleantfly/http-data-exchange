@@ -2,8 +2,8 @@ package com.github.littleantfly.tests;
 
 import com.alibaba.fastjson.JSON;
 import com.github.littleantfly.httpdataexchangecore.encrypt.DefaultHttpEncryptServiceImpl;
-import com.github.littleantfly.httpdataexchangecore.impl.EncryptExchangeHandlerWrapper;
-import com.github.littleantfly.httpdataexchangecore.impl.PerpetualExchangeHandler;
+import com.github.littleantfly.httpdataexchangecore.wrapper.EncryptExchangeHandlerWrapper;
+import com.github.littleantfly.httpdataexchangecore.wrapper.PerpetualExchangeHandler;
 import com.github.littleantfly.httpdataexchangecore.model.ExchangeResponse;
 import com.github.littleantfly.tests.model.EncryptRequestDemo;
 import com.github.littleantfly.tests.model.UserForm;

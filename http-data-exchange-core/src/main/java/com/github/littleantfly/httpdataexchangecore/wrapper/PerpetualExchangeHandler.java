@@ -1,4 +1,4 @@
-package com.github.littleantfly.httpdataexchangecore.impl;
+package com.github.littleantfly.httpdataexchangecore.wrapper;
 
 import com.alibaba.fastjson.JSON;
 import com.github.littleantfly.httpdataexchangecore.DataHandler;

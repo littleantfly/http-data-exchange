@@ -5,10 +5,9 @@ import com.alibaba.fastjson.JSON;
 import com.enneagon.digital.exchange.procotol.nuonuo.biz.NuoNuoInvoiceApplyForm;
 import com.enneagon.digital.exchange.procotol.nuonuo.biz.NuoNuoInvoiceApplyVO;
 import com.enneagon.digital.exchange.procotol.nuonuo.config.NuoNuoConfig;
-import com.github.littleantfly.httpdataexchangecore.impl.EncryptExchangeHandlerWrapper;
-import com.github.littleantfly.httpdataexchangecore.impl.PerpetualExchangeHandler;
+import com.github.littleantfly.httpdataexchangecore.wrapper.EncryptExchangeHandlerWrapper;
+import com.github.littleantfly.httpdataexchangecore.wrapper.PerpetualExchangeHandler;
 import com.github.littleantfly.httpdataexchangecore.model.EncryptResponse;
-import com.github.littleantfly.httpdataexchangecore.model.ExchangeResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.client.RestTemplate;
 

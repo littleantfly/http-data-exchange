@@ -11,9 +11,9 @@ import com.enneagon.digital.exchange.procotol.chinapay.biz.ChinaPayInvoiceQueryV
 import com.enneagon.digital.exchange.procotol.chinapay.config.ChinaPayConfig;
 import com.github.littleantfly.httpdataexchangecore.ExchangeHandler;
 import com.github.littleantfly.httpdataexchangecore.encrypt.EncryptService;
-import com.github.littleantfly.httpdataexchangecore.impl.EncryptExchangeHandlerWrapper;
-import com.github.littleantfly.httpdataexchangecore.impl.PerpetualExchangeHandler;
-import com.github.littleantfly.httpdataexchangecore.impl.SignatureExchangeHandlerWrapper;
+import com.github.littleantfly.httpdataexchangecore.wrapper.EncryptExchangeHandlerWrapper;
+import com.github.littleantfly.httpdataexchangecore.wrapper.PerpetualExchangeHandler;
+import com.github.littleantfly.httpdataexchangecore.wrapper.SignatureExchangeHandlerWrapper;
 import com.github.littleantfly.httpdataexchangecore.model.EncryptResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.client.SimpleClientHttpRequestFactory;
